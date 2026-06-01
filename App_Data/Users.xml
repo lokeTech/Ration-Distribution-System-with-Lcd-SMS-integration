@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- users.xml - example XML representation for Users table -->
+<Users>
+  <User>
+    <user_id>1</user_id>
+    <ration_card_no>RC100001</ration_card_no>
+    <name>Manisha Dekate</name>
+    <phone_no>7840971826</phone_no>
+    <family_size>6</family_size>
+    <password>12345</password>
+  </User>
+  <User>
+    <user_id>2</user_id>
+    <ration_card_no>RC100002</ration_card_no>
+    <name>Vaishnavi  Surjuse</name>
+    <phone_no>9322893416</phone_no>
+    <family_size>5</family_size>
+    <password>12345</password>
+  </User>
+  <User>
+    <user_id>3</user_id>
+    <ration_card_no>RC100003</ration_card_no>
+    <name>Utkarsh Khobragade </name>
+    <phone_no>9011566548</phone_no>
+    <family_size>5</family_size>
+    <password>12345</password>
+  </User>
+  <User>
+    <user_id>4</user_id>
+    <ration_card_no>RC100004</ration_card_no>
+    <name>Tina Titirmare </name>
+    <phone_no>7276153687</phone_no>
+    <family_size>4</family_size>
+    <password>123</password>
+  </User>
+  <User>
+    <user_id>5</user_id>
+    <ration_card_no>RC100005</ration_card_no>
+    <name>Lokesh Rangari</name>
+    <phone_no>8637792585</phone_no>
+    <family_size>5</family_size>
+    <password>12345</password>
+  </User>
+</Users>

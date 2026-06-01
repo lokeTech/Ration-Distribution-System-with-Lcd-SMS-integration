@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RationItems>
+  <Item>
+    <item_id>1</item_id>
+    <item_name>Rice</item_name>
+    <quota>10.00</quota>
+    <price>3.00</price>
+  </Item>
+  <Item>
+    <item_id>2</item_id>
+    <item_name>Wheat</item_name>
+    <quota>8.00</quota>
+    <price>2.50</price>
+  </Item>
+  <Item>
+    <item_id>3</item_id>
+    <item_name>Sugar</item_name>
+    <quota>2.00</quota>
+    <price>20.00</price>
+  </Item>
+</RationItems>

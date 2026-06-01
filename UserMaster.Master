@@ -1,0 +1,124 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="UserMaster.master.cs" Inherits="BiometricRationDistribution.UserMaster" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header - fixed full width */
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 20px;
+            color:white;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Container below header */
+        .container {
+            display: flex;
+            height: calc(100vh - 60px); /* full height minus header */
+        }
+
+        /* Left 30% with image */
+        .left {
+            flex: 0 0 30%;
+            background: url('img/grains.jpg') no-repeat center center/cover;
+        }
+
+        /* Right 70% for main content */
+        .right {
+            flex: 0 0 70%;
+            background: #ecf0f1;
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        /* Content box */
+        .content-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .left {
+                height: 200px;
+                flex: none;
+            }
+
+            .right {
+                flex: none;
+                width: 100%;
+            }
+        }
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Biometric Ration Distribution System</h1>
+        <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#FFFF66"></asp:Label>
+        <nav>
+            <a href="UHome.aspx">Home</a>
+            <a href="items.aspx">Ration Items</a>
+            <a href="default.aspx">Logout</a>
+        </nav>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Left 30% -->
+        <div class="left"></div>
+
+        <!-- Right 70% -->
+        <div class="right">
+            <div class="content-box">
+                <form id="form1" runat="server">
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </ContentTemplate>
+                    </asp:UpdatePanel>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

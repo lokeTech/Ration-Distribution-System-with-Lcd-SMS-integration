@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="putdata.aspx.cs" Inherits="BiometricRationDistribution.putdata" %>
