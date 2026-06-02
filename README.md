@@ -129,32 +129,37 @@ Consumers receive SMS alerts for:
 ##  Screenshots
 
 ### Login Page
-<img width="1600" height="754" alt="image" src="https://github.com/user-attachments/assets/b5356a46-3830-41cf-90b5-47639f36506d" />
+<img width="1800" height="750" alt="image" src="https://github.com/user-attachments/assets/b5356a46-3830-41cf-90b5-47639f36506d" />
 
 
 ### Consumer Dashboard
-<img width="1600" height="740" alt="image" src="https://github.com/user-attachments/assets/4de6a969-ec44-4e01-98a9-cf79984e520f" />
+<img width="1800" height="750" alt="image" src="https://github.com/user-attachments/assets/4de6a969-ec44-4e01-98a9-cf79984e520f" />
 
-<img width="1600" height="744" alt="image" src="https://github.com/user-attachments/assets/01a20f36-4ed3-48e5-b59d-cbff6322e9ef" />
+
+
+<img width="1800" height="750" alt="image" src="https://github.com/user-attachments/assets/01a20f36-4ed3-48e5-b59d-cbff6322e9ef" />
 
 
 ### Consumer Management
-<img width="1600" height="742" alt="WhatsApp Image 2026-04-21 at 8 23 05 PM" src="https://github.com/user-attachments/assets/dba7eeba-5022-4d44-bbb5-417b854a5387" />
+<img width="1800" height="750" alt="WhatsApp Image 2026-04-21 at 8 23 05 PM" src="https://github.com/user-attachments/assets/dba7eeba-5022-4d44-bbb5-417b854a5387" />
 
 
 ### Stock Management
-<img width="1600" height="748" alt="image" src="https://github.com/user-attachments/assets/c3691b17-1d72-4300-9d30-9e872205e3ba" />
+<img width="1800" height="750" alt="image" src="https://github.com/user-attachments/assets/c3691b17-1d72-4300-9d30-9e872205e3ba" />
 
 
 ### Distribution Module
-![Distribution Module](images/distribution.png)
+<img width="575" height="600" alt="WhatsApp Image 2026-06-01 at 10 29 04 PM" src="https://github.com/user-attachments/assets/93e8ef8d-fbfb-4e0b-ad96-69dc76226e2e" />
+
+
+
+<img width="575" height="600" alt="image" src="https://github.com/user-attachments/assets/1b6ab2bd-43fd-4d6b-99e4-3d589ff554f2" />
+
 
 ### SMS Notification
+
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/04ffb994-e1d1-428a-861c-e46556b45f35" />
 
-
-### LCD Display
-![LCD Display](images/lcd-display.png)
 
 ---
 
